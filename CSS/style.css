@@ -1,16 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
 
 }
 
 #container {
-    border: 2px wheat;
+    border: 2px ;
     display: flex;
     gap: 100px;
     padding-left: 90px;
-    background-color: rgba(206, 199, 186, 0.918);
+    background-color:white;
     height: 70px;
 }
 
@@ -22,10 +22,11 @@ img {
 .list {
     width: 100;
     display: flex;
-   padding-top: 50px;
+    padding-top: 50px;
     justify-content: space-evenly;
     gap: 50px;
     text-decoration: solid;
+    font-weight: bold;
 
 }
 
@@ -264,18 +265,26 @@ h6{
     justify-content: center;
    
 }
-.inside{
-    /* background-color: grey;
-   padding-right: 500px;
-  padding-top: 100px ;
-  height: 400px; */
+.follow{
+   /* background-color: grey;
+   height: 400px; */
 }
 .ap{
-    padding-right: 500px;
+    padding-right:700px;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .ap2{
-    padding-right: 450px;
+    padding-right: 650px;
    margin-bottom: 60px;
+}
+.news{
+    background-color: skyblue;
+    width: 200px;
+    /* padding-left: 20px; */
+    margin-left: 200px; 
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    padding-top: 5px;
 }
